@@ -1,0 +1,23 @@
+#!/bin/bash
+rm -rf /home/ubuntu/website/hello-world-war
+
+cd /home/ubuntu/website
+
+git clone https://github.com/avpaws4441/hello-world-war.git
+
+echo " Enter the older version "
+read a
+echo "Enter the newer version "
+read b
+cd /home/ubuntu/website/hello-world-war
+sed -i '6s/$a/$b/' pom.xml
+
+mvn deploy
+
+cd /home/ubuntu/website/apache-tomcat-10.1.13/webapps
+
+
+curl -u avpaws444@gmail.com:cmVmdGtuOjAxOjE3MjgxNDYxNjM6NFg4aTkwYTdJdXl5MnlnSTN6UDI5Y0piUTgw -O https://avpaws444.jfrog.io/artifactory/libs-release-local/com/efsavage/hello-world-war/$b.0.0/hello-world-war-$b.0.0.war
+
+sh /home/ubuntu/website/apache-tomcat-10.1.13/bin/shutdown.sh 
+sh /home/ubuntu/website/apache-tomcat-10.1.13/bin/startup.sh
