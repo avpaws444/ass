@@ -1,0 +1,16 @@
+total 48
+-rw-rw-r-- 1 ubuntu ubuntu   22 Sep 24 16:20 a
+-rw-rw-r-- 1 ubuntu ubuntu    1 Sep 24 14:17 bu.sh
+drwxrwxr-x 2 ubuntu ubuntu 4096 Sep 24 14:55 dir1
+-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 24 01:38 facr.sh
+-rw-rw-r-- 1 ubuntu ubuntu  174 Sep 24 01:39 fact.sh
+-rw-rw-r-- 1 ubuntu ubuntu  310 Sep 24 15:29 fi.sh
+-rw-rw-r-- 1 ubuntu ubuntu  251 Sep 24 16:31 hi.sh
+-rw-rw-r-- 1 ubuntu ubuntu   76 Sep 24 02:12 n.sh
+-rw-rw-r-- 1 ubuntu ubuntu  282 Sep 24 15:45 new.sh
+-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 24 16:31 output
+-rw-rw-r-- 1 ubuntu ubuntu  160 Sep 24 16:13 output1
+-rw-rw-r-- 1 ubuntu ubuntu  580 Sep 24 15:28 outputnew
+-rw-rw-r-- 1 ubuntu ubuntu  158 Sep 24 01:46 re.sh
+-rw-rw-r-- 1 ubuntu ubuntu  391 Sep 24 16:15 scr.sh
+-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 24 15:53 sh.sh
